@@ -1,0 +1,9 @@
+{
+  "name": "ai-smart-complaint-system",
+  "version": "1.0.0",
+  "description": "Root package for Render deployment",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "cd backend && node server.js"
+  }
+}
